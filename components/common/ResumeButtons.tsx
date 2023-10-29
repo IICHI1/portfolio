@@ -8,7 +8,7 @@ const ResumeButtons: React.FC = () => {
       }}
     >
       <BtnLink
-        link="https://github.com/IICHI1/portfolio/blob/main/public/resume/W-adarsh_resume.pdf"
+        link="https://linkedin.com/in/adarsh8304/overlay/1635547398545/single-media-viewer/"
         name="Resume"
         variant="contained"
         target="_blank"
