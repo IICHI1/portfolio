@@ -1,9 +1,8 @@
 import React from "react";
 
 import { Box, IconButton, Link } from "@mui/material";
-
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { BsGithub } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
+import { BsGithub, BsTwitter } from "react-icons/bs";
 
 const iconStyle = {
   bgcolor: "primary.contrastText",
@@ -24,14 +23,14 @@ const Social: React.FC = () => {
         // justifyContent: "center",
       }}
     >
-      <Link href="https://github.com/saiful-70" target="_blank" title="Github">
+      <Link href="https://github.com/AKACHI-4" target="_blank" title="Github">
         <IconButton sx={iconStyle}>
           <BsGithub />
         </IconButton>
       </Link>
 
       <Link
-        href="https://www.linkedin.com/in/saiful70/"
+        href="https://linkedin.com/in/adarsh8304"
         target="_blank"
         title="LinkedIn"
       >
@@ -39,13 +38,14 @@ const Social: React.FC = () => {
           <FaLinkedinIn />
         </IconButton>
       </Link>
+
       <Link
-        href="https://www.facebook.com/saiful70.me/"
+        href="https://x.com/i_adarsh4"
         target="_blank"
-        title="Facebook"
+        title="Twitter"
       >
         <IconButton sx={iconStyle}>
-          <FaFacebookF />
+          <BsTwitter />
         </IconButton>
       </Link>
     </Box>

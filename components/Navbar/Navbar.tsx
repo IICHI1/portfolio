@@ -11,8 +11,6 @@ import {
 import { keyframes } from "@emotion/react";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 import { useTheme } from "../../lib/ThemeContext";
-import MobileNavMenu from "./MobileNavMenu";
-import DesktopNavMenu from "./DesktopNavMenu";
 
 const flickerAnimation = keyframes`
     0% {
@@ -81,14 +79,11 @@ const Navbar: React.FC = () => {
                     }}
                   >
                     <Box component="span" sx={{ color: "secondary.main" }}>
-                      Saiful{" "}
+                      Adarsh{" "}
                     </Box>
-                    Islam
                   </Typography>
                 </Box>
               </Link>
-
-              <DesktopNavMenu />
             </Box>
 
             <Box sx={{ display: "flex", alignItems: "center" }}>
@@ -107,7 +102,6 @@ const Navbar: React.FC = () => {
                   <MdLightMode />
                 </IconButton>
               )}
-              <MobileNavMenu />
             </Box>
           </Box>
         </Container>

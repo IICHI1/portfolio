@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
       <Divider />
       <Box sx={{ py: "1rem", px: "1rem" }}>
         <Link
-          href="https://github.com/saiful-70/saifuls.xyz"
+          href="https://github.com/IICHI1/portfolio"
           target="_blank"
           underline="hover"
           sx={{
@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
           mr: "2px",
         }}
       >
-        &copy;2022-{`${new Date().getFullYear()} `}
+        Thanks to{` `}
         <Link
           href="https://github.com/saiful-70/"
           target="_blank"
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
         >
           Saiful Islam
         </Link>
-        . All Rights Reserved.
+        {` 🧡`}
       </Typography>
     </Box>
   );

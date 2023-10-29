@@ -12,9 +12,9 @@ const HeadingPrimary = () => {
       }}
     >
       <Box component="span" sx={{ color: "secondary.main" }}>
-        Saiful{" "}
+        Adarsh{" "}
       </Box>
-      Islam
+      Rawat
     </Typography>
   );
 };

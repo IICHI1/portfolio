@@ -1,4 +1,4 @@
-import { Box, Typography, Button } from "@mui/material";
+import { Box, Typography, Button, Divider } from "@mui/material";
 import React from "react";
 import BtnSkill from "../Button/BtnSkill";
 import HeadingSecondary from "../Heading/HeadingSecondary";
@@ -35,8 +35,10 @@ const About: React.FC = () => {
           {skills.programmingLanguages.map((item) => (
             <BtnSkill key={item.name} icon={item.icon} name={item.name} />
           ))}
-        </Box>
+
+        </Box>  
       </Box>
+      <Divider sx={{ mt: "2.5rem" }} />
     </Box>
   );
 };

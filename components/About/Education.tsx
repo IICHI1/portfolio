@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, colors, Link, Typography } from "@mui/material";
+import { Box, colors, Link, Typography, Divider } from "@mui/material";
 import HeadingSecondary from "../Heading/HeadingSecondary";
 
 const Education: React.FC = () => {
@@ -8,7 +8,7 @@ const Education: React.FC = () => {
       <HeadingSecondary name="Education" />
       <Box>
         <Typography variant="subtitle2" fontWeight={600}>
-          B.Sc. Engineering in ICT (Information {`& `}Communication Technology),
+          B.Tech. Engineering in ICT (Computer Science),
         </Typography>
         <Typography variant="body2" fontWeight={600}>
           <Link
@@ -21,14 +21,16 @@ const Education: React.FC = () => {
               cursor: "pointer",
             }}
           >
-            Comilla University
+            Graphic Era Dehradun
           </Link>
-          , Cumilla
+          , Uttarakhand
         </Typography>
 
         <Typography variant="body2">
-          2019 - present (Running 7th semister out of 8)
+          2021 - present (Running 5th semester out of 8)
         </Typography>
+
+        <Divider sx={{ mt: "2.5rem" }} />
       </Box>
     </Box>
   );

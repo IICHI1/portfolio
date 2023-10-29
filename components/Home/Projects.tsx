@@ -18,8 +18,9 @@ const Projects: React.FC = () => {
           </Grid>
         ))}
       </Grid>
-      <Link href="/projects">
-        <BtnNav name="More Projects" link="/projects" />
+
+      <Link href="https://github.com/IICHI1/?tab=repositories" target="_blank">
+        <BtnNav name="More on Github" link="https://github.com/IICHI1/?tab=repositories"/>
       </Link>
     </Box>
   );

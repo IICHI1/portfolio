@@ -8,20 +8,20 @@ import ResumeButtons from "../common/ResumeButtons";
 const bio = [
   {
     icon: <MdPlace />,
-    name: "Cumilla, Chittagong, Bangladesh",
+    name: "Dehradun, Uttarakhand, India",
   },
   {
     icon: <MdEmail />,
-    name: "saiful70.me@gmail.com",
+    name: "adarshrawat8304@gmail.com",
   },
 ];
 
-const Header: React.FC = () => {
+const Details: React.FC = () => {
   return (
     <React.Fragment>
       <Box
         sx={{
-          pt: "8rem",
+          pt: "3rem",
           // pb: "2rem",
           // display: "flex",
           // flexDirection: "column",
@@ -29,29 +29,7 @@ const Header: React.FC = () => {
           // alignItems: "center",
         }}
       >
-        <ImageTemplate
-          height="12rem"
-          width="12rem"
-          borderRadius="50%"
-          src="/images/avatar.jpeg"
-          alt="avatar"
-        />
-
         <Box mt=".5rem" mb="1rem">
-          <Typography
-            variant="h1"
-            sx={{
-              fontFamily: '"Fira Code", sans-serif',
-              fontWeight: 700,
-              fontSize: { xs: "2.5rem", sm: "3rem", md: "3.5rem" },
-              // mt: "1rem",
-            }}
-          >
-            <Box component="span" sx={{ color: "secondary.main" }}>
-              Saiful{" "}
-            </Box>
-            Islam
-          </Typography>
           <Social />
         </Box>
 
@@ -75,9 +53,8 @@ const Header: React.FC = () => {
           ))}
         </Box>
 
-        <ResumeButtons />
       </Box>
     </React.Fragment>
   );
 };
-export default Header;
+export default Details;

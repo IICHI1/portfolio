@@ -8,15 +8,16 @@ const ResumeButtons: React.FC = () => {
       }}
     >
       <BtnLink
-        link="https://drive.google.com/file/d/14qcy1BhSHPsAgBG_NrdhyHEqDzMHE5bX/view?usp=share_link"
+        link="https://github.com/IICHI1/portfolio/blob/main/public/resume/W-adarsh_resume.pdf"
         name="Resume"
         variant="contained"
+        target="_blank"
       />
-      <BtnLink
-        link="https://github.com/saiful-70/saifuls.xyz/raw/main/public/resume/resume_saiful.pdf"
+      {/* <BtnLink
+        link="https://github.com/IICHI1/portfolio/blob/main/public/resume/W-adarsh_resume.pdf"
         name="Get Resume"
         variant="outlined"
-      />
+      /> */}
     </Box>
   );
 };

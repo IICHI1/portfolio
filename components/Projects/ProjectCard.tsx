@@ -26,7 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ item }) => {
           height="22rem"
           width="auto"
           borderRadius=".8rem"
-          src={`${item.imgSrc[0]}`}
+          src={`${item.imgSrc}`}
           alt={`${item.name}'s image`}
         />
 
